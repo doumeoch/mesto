@@ -15,4 +15,4 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
-KZkzdkfkdzfkdsf;sdafdsakfxczv,cxzk,fdsgdf;gfds'
+KZkzdkfkdzfkdsf;sdafdsakfxczv,cxzk,fdsgdf;gfds'dsadsadasd
