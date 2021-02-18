@@ -1,0 +1,21 @@
+.popup__button-save {
+    width: 358px;
+    height: 50px;
+    transition: opacity 2s linear;
+    cursor: pointer;
+    background-image: url(../../../images/Submit\ Button.png);
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+.popup__button-save:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+.popup__button-save {
+    width: 238px;
+    background-position: center;
+}
+}

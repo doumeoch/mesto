@@ -9,7 +9,7 @@
 </head>
 <body class="main">
     <header class="header">
-        <a href="#"><img class="header__vector" src="./images/Vector.svg" alt="Шапка"></a>
+        <a href="#" target="_blank"><img class="header__vector" src="./images/Vector.svg" alt="Шапка"></a>
     </header>
 <main class="content">
     <section class="profile">
@@ -83,23 +83,25 @@
     <footer class="footer">
         <p class="footer__copyright"> © 2020 Mesto Russia </p>
     </footer>
-    <section class="popup popup_type_profile">
-        <form class="form form-profile" action="#" name="profile">
-          <h2 class="form__title">Редактировать профиль</h2>
-          <fieldset class="form__set form__profile">
-            <input class="form__input form__name" id="profile-name" type="text" name="profile-name" placeholder="Введите ваше имя и/или фамилию"
-            minlength="2" maxlength="40" autocomplete="off"  required>
-            <span class="form__error-span" id="profile-name-error"></span>
-    
-            <input class="form__input form__status" id="profile-status" type="text" name="profile-status" placeholder="Введите ваш статус"
-            minlength="2" maxlength="200" autocomplete="off" required>
-            <span class="form__error-span" id="profile-status-error"></span>
-          </fieldset>
-          <button class="form__btn-exit popup__btn-exit hover-opacity" type="reset"></button>
-          <input class="form__btn-input form__btn-save" type="submit" value="Сохранить">
-        </form>
-      </section>
 </main>
+<div>
+    <section class="popup">
+            <div class="popup__container">
+                <button type="button" class="popup__close" aria-label="Закрыть попап"></button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form class="popup__input" name="popup">
+                  <input type="text" class="popup__about popup__name" name="name" value="Жак-Ив Кусто" placeholder="Имя" required>
+                  <input type="text" class="popup__about popup__biography" name="profession" value="Исследователь океана" placeholder="Профессия" required>
+                  <button class="popup__button-save" type="submit"></button>
+                </form>
+              </div>
+            </section>
+            </div>
+        
+    <script src="script/main.js"></script>
+
+
+
 
 </body>
 </html>
