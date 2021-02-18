@@ -1,9 +1,0 @@
-.photo-grid__like {
-    background-image: url(../../../images/like.svg);
-    width: 22px;
-    height: 19px;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: contain;
-    border: 1px solid white;
-}
