@@ -6,7 +6,7 @@
     line-height: 17px;
 }
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 767px) {
 .popup__input {
     margin-left: 22px;
 }

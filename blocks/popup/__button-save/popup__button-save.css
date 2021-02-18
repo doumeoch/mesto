@@ -1,17 +1,11 @@
 .popup__button-save {
     width: 358px;
     height: 50px;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: white;
+    transition: opacity 2s linear;
     cursor: pointer;
-    transition: opacity 1s linear;
-    outline: none;
-    background-color: black;
-    border: 0;
-    border-radius: 2px;
+    background-image: url(../../../images/Submit\ Button.png);
+    margin: 0 auto;
+    margin-bottom: 37px;
 }
 
 .popup__button-save:hover {
@@ -19,8 +13,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
 .popup__button-save {
     width: 238px;
+    background-position: center;
 }
 }
