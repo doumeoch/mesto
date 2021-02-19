@@ -4,7 +4,7 @@
     display: flex;
     background-color: #FFFFFF;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     left: 50%;
     top: 50%;
     border-radius: 10px;
@@ -17,3 +17,4 @@
     width: 282px;
 }
 }
+
